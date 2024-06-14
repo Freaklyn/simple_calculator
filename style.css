@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(3, 3, 29);
+}
+
+.cals{
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    background-color: rgb(6, 0, 38);
+    padding: 2px;
+}
+.buttons > div {
+    border: 1px solid rgba(0, 0, 0, 0.842);
+    font-size: 25px;
+    padding: 20px;
+
+}
+.text{
+    background-color: #fff;
+    grid-column-start:1 ;
+    grid-column-end: 5;
+    height: 100px;
+}
+.btn{
+    color: #fff;
+ text-align: center;
+}
+.btn:hover{
+     background-color: aqua;
+}
+.operators_clear{
+    background-color: red;
+    grid-column-start:1 ;
+    grid-column-end: 3;
+
+}
+.operator_equal{
+    background-color: rgb(167, 143, 10);
+}
+.operator_add{
+grid-area:4 / 4 / span 2 / 4;
+
+}
